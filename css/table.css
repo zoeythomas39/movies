@@ -1,0 +1,115 @@
+body{
+    background-color: #d4c9d2;
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    border-color: #331a31;
+    border-style: solid;
+    border-width:0.5rem;
+    padding: 1rem;
+    color: #000;
+    background-color: #ceb2c9;
+}
+
+a:hover{
+    background-color: #331a31;
+    padding: 1rem;
+    color: #fff;
+}
+
+a:focus{
+    background-color: #000;
+    padding: 1rem;
+    color: #fff;
+}
+
+a:focus{
+    background-color: #000;
+    padding: 1rem;
+    color: #fff;
+}
+
+th{
+    padding: 1rem;
+    border-style: solid;
+    background-color: #331a31;
+    color: #d4c9d2;
+}
+
+td{
+    padding: 1rem;
+    border-style: solid;
+    background-color: #fff;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+table{
+    width: 100%;
+}
+
+p{
+    display: flex;
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-items: center;
+    /* justify-content: center; */
+    border-style: solid;
+}
+.shorttable{
+    display: none;
+}
+
+@media (max-width: 580px){
+    .datecol{
+        display: none;
+    }
+}
+
+@media(max-width: 480px){
+    .datecol{
+        display: none;
+    }
+    tr {
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        margin-bottom: 1rem;
+        border-color: #000;
+      }
+
+      th{
+        padding: 0.25rem;
+        border-style: none;
+        font-size: 0.75rem;
+      }
+      td{
+        padding: 0.5rem;
+        font-size: 0.75rem;
+      }
+      .shorttable{
+        display: block;
+      }
+      #longtable{
+        display: none;
+      }
+      p{
+        font-size: 0.75rem;
+      }
+}

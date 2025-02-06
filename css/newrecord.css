@@ -1,0 +1,102 @@
+body{
+    background-color: #d4c9d2;
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+/* #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.middle{
+    margin: 2rem;
+}
+
+h1{
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    border-color: #331a31;
+    border-style: solid;
+    border-width:0.5rem;
+    padding: 1rem;
+    color: #000;
+    background-color: #ceb2c9;
+}
+
+a:hover{
+    background-color: #331a31;
+    padding: 1rem;
+    color: #fff;
+}
+
+a:focus{
+    background-color: #000;
+    padding: 1rem;
+    color: #fff;
+}
+
+a:focus{
+    background-color: #000;
+    padding: 1rem;
+    color: #fff;
+}
+
+input{
+    width: 50%;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    box-sizing: border-box;
+  }
+
+#submit{
+    background-color: #331a31;
+    color: #d4c9d2;
+}
+
+#submit:hover{
+    background-color: #ceb2c9;
+    color: #331a31;
+}
+
+#submit:focus{
+    background-color: #d7ced6;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.middle{
+    margin: 4rem;
+}
+
+@media (max-width: 850px){
+input{
+    width: 75%;
+}
+label{
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 500px){
+    input{
+        width: 90%;
+    }
+    label{
+        max-width: 75%;
+      }
+    }
